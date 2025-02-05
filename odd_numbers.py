@@ -50,6 +50,13 @@ odds = OddNumbers(11, 4)
 print_nums(odds)
 
 # bitta arg kelgan holatda yani bunda bittasi end ga olinadi start ga 0 olinadi
-print("\nbitta argument berilgan holatda:")
+print("\nbitta argument: musbat berilgan holatda:")
 odds = OddNumbers(20)
+print_nums(odds)
+
+
+# bitta arg kelgan holatda yani bunda bittasi end ga olinadi start ga 0 olinadi
+# bunda 0 dan boshlab o'sha songacha manfity toq sonlarini berish kerak
+print("\nbitta argument: manfiy berilgan holatda:") #
+odds = OddNumbers(-19)
 print_nums(odds)
